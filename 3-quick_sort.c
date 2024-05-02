@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * lomuto_partition - partitions the array using the Lomuto partition scheme for
- * quicksort
+ * lomuto_partition - partitions the array using the Lomuto partition scheme
+ * for quicksort
  * @array: array of integers to partition
  * @low: starting index of the partition
  * @high: ending index of the partition
