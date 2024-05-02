@@ -37,5 +37,7 @@ void swap(int *a, int *b);
 void sift_down(int *array, size_t start, size_t end, size_t size);
 void heapify(int *array, size_t size);
 void heap_sort(int *array, size_t size);
+void count_sort(int *array, size_t size, int exp, int *output);
+void radix_sort(int *array, size_t size);
 
 #endif /* SORT_H */
