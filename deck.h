@@ -3,6 +3,14 @@
 
 #include <stdlib.h>
 
+/**
+ * enum kind_e - Suit of a card
+ *
+ * @SPADE: Spade
+ * @HEART: Heart
+ * @CLUB: Club
+ * @DIAMOND: Diamond
+ */
 typedef enum kind_e
 {
 	SPADE = 0,
