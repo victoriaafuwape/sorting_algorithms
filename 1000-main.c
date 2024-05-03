@@ -12,7 +12,8 @@ void print_deck(const deck_node_t *deck)
 	{
 		if (i)
 			printf(", ");
-		printf("{%s, %c}", deck->card->value, kinds[deck->card->kind]);
+		printf("{%s, %c}", deck->card->value,
+		       kinds[deck->card->kind]);
 		if (i == 12)
 			printf("\n");
 		i = (i + 1) % 13;
